@@ -3,8 +3,12 @@ const btnElem = document.querySelector('#getCfg');
 
 let addreses = [
     { isp: 'Irancell', ip: 'irc.nazsuk.ga' },
-    { isp: 'Hamrah Aval', ip: 'mci.nazsuk.ga' },
-    { isp: 'ADSL', ip: 'adsl.nazsuk.ga' }
+    { isp: 'Hamrah 1', ip: 'mci.nazsuk.ga' },
+    { isp: 'Hamrah 2', ip: 'mci2.nazsuk.ga' },
+    { isp: 'Hamrah 3', ip: 'mci3.nazsuk.ga' },
+    { isp: 'Hamrah 4', ip: 'mci4.nazsuk.ga' },
+    { isp: 'ADSL 1', ip: 'adsl.nazsuk.ga' },
+    { isp: 'ADSL 2', ip: 'adsl2.nazsuk.ga' }
 ]
 
 // Random String generator
