@@ -36,10 +36,8 @@ btnElem.addEventListener('click', () => {
         let cfgObj = JSON.parse(atob(userCfg.trim().substring(8)));
         addreses.forEach(adds => {
             let tempObj = { ...cfgObj };
-            tempObj.ps = `${tempObj.ps} [${adds.isp}]`;
-            tempObj.add = adds.ip;
             tempObj.host = hostSeprator(tempObj.host);
-            tempObj.sni = '';
+            tempObj.sni = hostSeprator(tempObj.host);
             fixedCfg.push(tempObj);
             tempObj = '';
         });
